@@ -13,8 +13,8 @@ public class BootApp extends SpringBootServletInitializer {
 	}
 
 	public static void main(String[] args) throws Exception {
-		System.out.println("First commit.");
 		SpringApplication.run(BootApp.class, args);
+		System.out.println("Application started successfully.");
 	}
 
 }
